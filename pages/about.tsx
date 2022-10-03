@@ -1,24 +1,21 @@
 import Head from "next/head";
 import Link from "next/link";
-
 import Widget from "../components/Widget";
-
-function IndexPage() {
+function AboutPage() {
   return (
     <>
       <Head>
-        <title key="title">Welcome to my Next.js website</title>
+        <title key="title">About this website</title>
       </Head>
-
       <div>
-        <Link href="/about">
-          <a>About us</a>
+        <Link href="/" passHref>
+          <a>Back to home</a>
         </Link>
       </div>
       <div>
-        <Widget pageName="index" />
+        <Widget pageName="about" />
       </div>
     </>
   );
 }
-export default IndexPage;
+export default AboutPage;

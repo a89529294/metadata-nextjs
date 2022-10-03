@@ -8,7 +8,7 @@ function AboutPage() {
         <title key="title">About this website</title>
       </Head>
       <div>
-        <Link href="/" passHref>
+        <Link href="/">
           <a>Back to home</a>
         </Link>
       </div>
